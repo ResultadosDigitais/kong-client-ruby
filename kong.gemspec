@@ -6,11 +6,11 @@ require 'kong/version'
 Gem::Specification.new do |spec|
   spec.name          = "kong"
   spec.version       = Kong::VERSION
-  spec.authors       = ["Lauri Nevala"]
-  spec.email         = ["lauri@kontena.io"]
+  spec.authors       = ["Ecosystem API Team"]
+  spec.email         = ["ecosystem-apis@rdstation.com "]
   spec.summary       = %q{A Ruby client for the Kong API }
   spec.description   = %q{A Ruby client for the Kong API}
-  spec.homepage      = "https://github.com/kontena/kong-client-ruby"
+  spec.homepage      = "https://github.com/ResultadosDigitais/kong-client-ruby"
   spec.license       = "Apache-2.0"
   spec.files         = `git ls-files -z`.split("\x0")
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})

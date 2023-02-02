@@ -1,3 +1,7 @@
+# 0.4.0 (2023-02-02)
+- Allow create ACLs with tags
+- Allow find all resources by some field
+
 # 0.3.4 (2018-09-12)
 - Re-built gem package
 
