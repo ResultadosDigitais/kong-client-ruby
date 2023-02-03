@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "kong"
   spec.version       = Kong::VERSION
   spec.authors       = ["Ecosystem API Team"]
-  spec.email         = ["ecosystem-apis@rdstation.com "]
+  spec.email         = ["ecosystem-apis@rdstation.com", "renan.porto@rdstation.com", "rogerio.angeliski@rdstation.com"]
   spec.summary       = %q{A Ruby client for the Kong API }
   spec.description   = %q{A Ruby client for the Kong API}
   spec.homepage      = "https://github.com/ResultadosDigitais/kong-client-ruby"
