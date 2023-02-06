@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'kong/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "kong"
+  spec.name          = "kong-client"
   spec.version       = Kong::VERSION
   spec.authors       = ["Ecosystem API Team"]
   spec.email         = ["ecosystem-apis@rdstation.com", "renan.porto@rdstation.com", "rogerio.angeliski@rdstation.com"]
