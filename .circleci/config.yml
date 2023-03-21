@@ -1,0 +1,26 @@
+version: 2.1
+orbs:
+  ruby: circleci/ruby@2.0.0
+  
+jobs:
+  test:
+    parameters:
+      ruby-version:
+        type: string
+    docker:
+      - image: << parameters.ruby-version >>
+    steps:
+      - checkout
+      - ruby/install-deps
+      - run: bundle exec rspec --profile 10
+      
+workflows:
+  all-tests:
+    jobs:
+      - test:
+          matrix:
+            parameters:
+              ruby-version:
+                - "cimg/ruby:2.6.6"
+                - "cimg/ruby:2.7.1"
+                - "cimg/ruby:3.1.3"
